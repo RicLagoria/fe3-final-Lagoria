@@ -27,5 +27,3 @@ const Home = () => {
 };
 
 export default Home;
-
-//className={styles.homeCards}
