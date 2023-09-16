@@ -23,11 +23,26 @@ h1{
   text-align: center;
 }
 
-nav{
+nav li{
   display: flex;
   width: 80vw;
+  text-transform: uppercase;
+  font-weight: bold;
   justify-content: flex-start;
   padding: 1rem;
+}
+
+.button-theme {
+  
+  border-radius: 7px;
+  padding: 0.5rem;
+  border: none;
+  cursor: pointer;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  font-size: 12px;
+  margin: 0 1rem;
 }
 
 a{
@@ -56,6 +71,7 @@ footer > img{
   width: 200px;
   margin: 0;
 }
+
 footer > p{
   margin: 0;
   padding-top: 0.7rem;
@@ -67,10 +83,46 @@ form{
   justify-content: space-around;
   width: 300px;
   height: 100px;
+  padding-top: 4rem;
   margin: 0 auto;
 }
 
-.card{
+input{
+  border-radius: 7px;
+  border: 1px solid gray;
+  background-color: lightgrey;
+  padding: 0.5rem;
+  margin: 0.5rem;
+} 
+
+.infoLabel{
+  display: flex;
+  font-weight: bold;
+  font-size: 15px;
+  font-style: italic;
+}
+
+.button-send{
+  border-radius: 7px;
+  padding: 0.5rem;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 15px;
+  margin: 0 1rem;
+}
+
+.resp{
+  display: flex;
+  font-size: 20px;
+  font-style: italic;
+  color: black;
+  margin: 0 1rem;
+  padding: 0.5rem;
+}
+
+.card {
+  border-radius: 7px;
   display: flex;
   justify-content: space-around;
   flex-direction: column;
@@ -80,11 +132,14 @@ form{
   border: 0.5px solid rgb(136, 136, 136);
 }
 
+.photo{
+  width: 100px}
+
 .card:hover{
   border: 0.5px solid rgb(206, 217, 142);
 }
 
-.card-grid{
+.card-grid li{
   display: flex;
   justify-content: space-evenly;
   gap: 1rem;
@@ -92,6 +147,22 @@ form{
   height: auto;
   flex-wrap: wrap;
   margin: 0 auto;
+}
+
+.infoTit {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: red;
+  font-weight: bold;
+  font-size: 22px;
+  font-style: italic;
+}
+
+.info {
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }
 
 table {
